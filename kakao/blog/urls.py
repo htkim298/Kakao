@@ -1,6 +1,7 @@
-from django.urls import path
+from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    path('message', views.message, name='message'),
+  url(r'^keyboard/?$', views.keyboard),
+  url(r'^message', views.message)
 ]
