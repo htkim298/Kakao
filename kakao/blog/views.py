@@ -54,7 +54,10 @@ def message(request):
                       }
                     ]
                   },
-              "data": {
-              }
+                  "data": {
+                    "msg":"HI",
+                    "name":"Ryan",
+                    "position":"Senior Managing Director"
+                  }
 
         })
