@@ -23,6 +23,11 @@ def message(request):
                         'text': "테스트 성공입니다."
                     }
                 }],
+                'quickReplies': [{
+                    'label': '처음으로',
+                    'action': 'message',
+                    'messageText': '처음으로'
+                }]
                 }
             })
 
