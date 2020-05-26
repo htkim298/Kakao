@@ -20,13 +20,14 @@ def message(request):
             'template': {
                 'outputs': [{
                     'simpleText': {
-                        'text': "HELP_TEXT"
+                        'text': "테스트 성공입니다."
                     }
-                }]
+                }],
+                }
             })
 
 
-    if return_str == '카카오':
+    if return_str == '테스트':
         return JsonResponse({
             'version': "2.0",
             'template': {
